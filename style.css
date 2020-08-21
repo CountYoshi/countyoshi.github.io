@@ -1,9 +1,15 @@
-.header {
+.header, .footer {
   border: solid #626ABA 3px;
-  background: linear-gradient(35deg, blue, purple, pink);
+  background: linear-gradient(35deg, #000000, #2D5D68, #00D1FF);
   padding: 10px;
   border-radius: 25px;
   height: 75px;
+}
+
+.footer {
+  text-align: center;
+  background: linear-gradient(35deg, #00D1FF, #2D5D68, #000000);
+  height: 125px;
 }
 
 h1 {
@@ -56,4 +62,19 @@ input {
 
 input, button, a {
   float: right;
+}
+
+span {
+  display: block;
+  width: 100%;
+  border: solid #3e5263 2px;
+  background-color: linear-gradient(35deg, #00D1FF, #2D5D68, #000000);
+  border-radius: 25px;
+  position: relative;
+  top: 105px;
+  right: 4px;
+  padding: 1px;
+  font-family: sans-serif;
+  color: #623e63;
+  margin: 1px;
 }
