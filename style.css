@@ -1,5 +1,5 @@
 .header {
-  border: solid purple 3px;
+  border: solid #626ABA 3px;
   background: linear-gradient(35deg, blue, purple, pink);
   padding: 10px;
   border-radius: 25px;
@@ -7,17 +7,19 @@
 }
 
 h1 {
-  color: red;
+  color: fuchsia;
   float: left;
   padding: 5px;
   margin: 5px;
+  font-family: "papyrus";
 }
 
 a {
   margin: 5px;
   margin-top: 50px;
   padding: 5Px;
-  background-color: lavender;
+  color: #34495E;
+  background-color: #AED6F1;
   border-radius: 25px;
   position: relative;
   bottom: 75px;
@@ -49,7 +51,7 @@ input {
   height: 75px;
   float: left;
   border-radius: 35px;
-  border: solid yellow 2px;
+  border: solid #5F6A6A 3px;
 }
 
 input, button, a {
