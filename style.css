@@ -1,0 +1,57 @@
+.header {
+  border: solid purple 3px;
+  background: linear-gradient(35deg, blue, purple, pink);
+  padding: 10px;
+  border-radius: 25px;
+  height: 75px;
+}
+
+h1 {
+  color: red;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+}
+
+a {
+  margin: 5px;
+  margin-top: 50px;
+  padding: 5Px;
+  background-color: lavender;
+  border-radius: 25px;
+  position: relative;
+  bottom: 75px;
+  left: 40px;
+}
+
+body {
+  background-color: black;
+}
+
+button {
+  background-color: yellow;
+  border-radius: 0 25px 25px 0;
+  position: sticky;
+  top: 100px;
+  clear: right;
+}
+
+input {
+  width: 100px;
+  border-radius: 25px 0 0 25px;
+  position: sticky;
+  top: 100px;
+  right: 80px;
+}
+
+#imgTitle {
+  width: 75px;
+  height: 75px;
+  float: left;
+  border-radius: 35px;
+  border: solid yellow 2px;
+}
+
+input, button, a {
+  float: right;
+}
